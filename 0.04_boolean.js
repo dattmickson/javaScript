@@ -37,13 +37,17 @@ if (time<=op1){
 */
 
 var cash = 200 // dollars
-var debt = 250
+var debt = 0
 var diff = cash - debt
-var want = true
-if (diff>=0 && want){
-	console.log("congrats you are debt free with: $" + diff + " left in your account");
-} else if (diff<0 && want){
-	console.log("You can not pay it off you need: $" + Math.abs(diff) +" more money to close out debts")
+var want = false
+if(debt>0){
+	if (diff>=0 && want){
+		console.log("congrats you are debt free with: $" + diff + " left in your account");
+	} else if (diff<0 && want){
+		console.log("You can not pay it off you need $" + Math.abs(diff) +" more dollars to close out your debts")
+	} else {
+		console.log("You dont want to pay, you still have $" + cash + " cash and $" + debt + " of debt")
+	}
 } else {
-	console.log("You dont want to pay, you still have $" + cash + " cash and $" + debt + " of debt")
+	console.log("you have no debt dont worry")
 }
