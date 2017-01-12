@@ -17,23 +17,23 @@ do {
   var work = 0
   switch (response){
     case "1":
-      console.log("We wont win a game");
+      alert("We wont win a game");
       work = 1;
       break;
     case "2":
-      console.log("We will win a few");
+      alert("We will win a few");
       work = 1;
       break;
     case "3":
-      console.log("We will be average");
+      alert = "We will be average";
       work = 1;
       break;
     case "4":
-      console.log("We will make the playoffs");
+      alert("We will make the playoffs");
       work=1
       break;
     case "5":
-      console.log("Superbowl!!!");
+      alert("Superbowl!!!");
       work = 1;
       break;
     default:
