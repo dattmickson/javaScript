@@ -25,12 +25,24 @@ var i = 0;
 // for (var letter in team){
 // 	console.log(team[letter])
 // }
-var vowel = 0
-var food = "pizza"
-for (var i in food){
-	console.log(food[i])
-	if(food[i] === "a" ||food[i] === "e" ||food[i] === "i" ||food[i] === "u" ||food[i] === "o"){
-		vowel++;
+
+
+// var vowel = 0
+// var food = "pizza"
+// for (var i in food){
+// 	console.log(food[i])
+// 	if(food[i] === "a" ||food[i] === "e" ||food[i] === "i" ||food[i] === "u" ||food[i] === "o"){
+// 		vowel++;
+// 	}
+// }
+// console.log("there are " + vowel + " vowels in the word " + food);
+
+for (var i = 1; i <= 10; i++){
+	if (i < 9){
+		console.log(i);
+	} else if(i == 9){
+		console.log("nine")
+	} else {
+		console.log("ten")
 	}
 }
-console.log("there are " + vowel + " vowels in the word " + food);
