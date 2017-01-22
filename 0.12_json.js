@@ -1,8 +1,11 @@
 //JSON is an acronym for java script object notation
-//
+//it is a standard for structuring data
+
 var names = [["james", "paul", "cam", "chris"],["morg", "julie", "abbey", "brie"]]
 //console.log(names[1][3])
 
+
+//must put names in quotes, i didnt do that
 var items = [
 	{
 		id: 1,
